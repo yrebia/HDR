@@ -1,0 +1,40 @@
+name: histoire_reve
+description: Une nouvelle application Flutter.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/back.png
+  fonts:
+    - family: Eczar
+      fonts:
+        - asset: assets/fonts/Eczar-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Eczar-Bold.ttf
+          weight: 700
+    - family: Rosario
+      fonts:
+        - asset: assets/fonts/Rosario-BoldItalic.ttf
+          weight: 600
+        - asset: assets/fonts/Rosario-Bold.ttf
+          weight: 700
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Black.ttf
+          weight: 600
+
